@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Secrets / private local state
+.env
+*.env
+.secrets*
+secrets/
+*.p8
+*.pem
+*.key
+
+# OpenClaw private runtime dumps
+memory/
+state/
+*.log
