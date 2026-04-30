@@ -81,6 +81,26 @@ Output:
 - Next steps
 - Open decisions
 
+### Close Session
+Trigger examples:
+- "close session"
+- "save context before we reset"
+- "prune this down"
+
+Purpose:
+- trim working context before the next session
+- keep durable items
+- reduce token usage going forward
+
+Output:
+- Kept
+- Trimmed
+- Dropped
+- Next step
+
+Reference:
+- `scripts/close-session-workflow-prompt.md`
+
 ### TestFlight Upload Watchdog
 Trigger example:
 - "push to TestFlight"
