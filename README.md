@@ -20,6 +20,7 @@ This repo is designed to answer: **"What can my assistant do, how do I invoke wo
 ## Start here
 - [Capability Map](docs/capabilities/capability-map.md)
 - [Workflow Catalog](docs/workflows/workflow-catalog.md)
+- [App Manager Overview](docs/projects/app-manager.md)
 - [Automation Schedule](docs/operations/automation-schedule.md)
 - [Git & Repo Workflow](docs/operations/git-repo-workflow.md)
 - [Security Rules](docs/security/public-safe-rules.md)
@@ -30,4 +31,5 @@ This repo is designed to answer: **"What can my assistant do, how do I invoke wo
 - GameKit — app/project repo
 - HabitTracker — app/project repo
 - PantryTracker — app/project repo
+- App Manager — workflow layer for ideas, review, release prep, and progress tracking
 

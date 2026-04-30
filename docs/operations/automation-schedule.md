@@ -5,6 +5,8 @@ All times: America/Denver.
 | Automation | Time | Expected behavior |
 |---|---:|---|
 | Daily Morning Controller | 8:15 AM daily | Sends focused daily plan |
+| App Manager Daily Triage | 9:00 AM daily | Updates App Work, flags changes/deletions, surfaces blockers |
+| App Manager Weekly Review | Wednesday 4:00 PM | Summarizes app status, readiness, blockers, and next priorities |
 | End-of-Day Review | 10:00 PM daily | Sends progress review + tomorrow start |
 | Weekly Memory Compaction | Sunday 8:30 PM | Compacts memory and summarizes carry-over priorities |
 

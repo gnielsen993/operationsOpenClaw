@@ -7,6 +7,16 @@
 - Output: Top 3 priorities, Ignore today, Work order, Start now, Main risk
 - Purpose: turn current context into a focused day
 
+### App Manager Daily Triage
+- Schedule: 9:00 AM America/Denver
+- Output: Active apps, New additions/changes, Suggested deletions, Blockers, TestFlight candidates, Approval needed, First action
+- Purpose: keep App Work current and surface change/delete decisions early
+
+### App Manager Weekly Review
+- Schedule: Wednesday 4:00 PM America/Denver
+- Output: App-by-app status, What moved forward, What changed, What should be cut, Release/TestFlight readiness, Blockers, Next week priorities
+- Purpose: keep the master dashboard current and prepare the next week
+
 ### End-of-Day Review
 - Schedule: 10:00 PM America/Denver
 - Output: Moved the needle, Low-value work, Unresolved, Start tomorrow with, Pattern to watch
@@ -100,6 +110,28 @@ Output:
 
 Reference:
 - `scripts/close-session-workflow-prompt.md`
+
+### App Manager Release Checkpoint
+Trigger examples:
+- "app manager release check"
+- "before we ship"
+- "ready for TestFlight"
+- "is this safe to release"
+
+Output:
+- Build state
+- Export compliance
+- Core flow check
+- Support / safety issues
+- What changed since last checkpoint
+- Suggested deletions
+- Approval needed from Gabe
+- Recommendation: proceed / hold
+
+Purpose:
+- validate readiness before TestFlight or public ship
+- keep deletions visible
+- enforce Gabe approval for public ships
 
 ### TestFlight Upload Watchdog
 Trigger example:
